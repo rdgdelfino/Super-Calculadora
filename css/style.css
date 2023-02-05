@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray;
+  display: flex;
+  flex-flow: column;
+  margin: 0px;
+  width: 100vw;
+  height: auto;
+  background-color: rgb(243, 243, 243);
+}
+
+header {
+  font-family: monospace;
+  background-color: #f5cdb4;
+  color: #74a089;
+  display: flex;
+  flex-flow: column;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+button {
+  font-family: monospace;
+  background-color: #74a089;
+  color: #f5cdb4;
+  border: 0;
+}
+
+section {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  width: 60%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+div.box {
+  font-family: monospace;
+  border: 1px solid;
+  padding: 5px;
+}
+
+#op-title {
+  color: #9a8822;
+}
